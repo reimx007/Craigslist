@@ -1,5 +1,6 @@
 body {
-  background: #ded3ce;
+  /* background: #ded3ce; */
+  background: #FFFFFF;
 }
 
 #bg_white {
@@ -76,7 +77,7 @@ hr.style-one {
     color: 	#202020	;
 }
 .text {
-    padding: 15px;
+    padding: 1px;
     margin-left: 10px
 }
 
@@ -115,4 +116,19 @@ hr.style-one {
   opacity: 1;
   animation: subtitle 1.2s forwards linear;
   animation-delay: 1.2s;
+}
+
+.navbar-brand  {
+     color: #551A8B !important;
+ }
+
+ .btn-outline-secondary {
+   color: #551A8B;
+   background-color: ##DCD1D3;
+   border-color: #551A8B;
+}
+.btn-outline-secondary:hover {
+    color: #551A8B;
+    background-color: #c1b2b2;
+    border-color: #551A8B
 }
