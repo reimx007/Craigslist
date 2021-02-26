@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Carl Reim Website</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="theme_1582925682306.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<!--body starts here!-->
+<body>
+<!--nav bar starts here!-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <a class="navbar-brand" href="index.html">Home</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="nav navbar-nav navbar-right">
+        <li class="nav-item dropdown">
+         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="gis.html">GIS & Cartogrpahy</a>
+          <a class="dropdown-item" href="dataviz.html">Data visualizations</a>
+          <a class="dropdown-item" href="script.html">Scripting</a>
+          <a class="dropdown-item" href="Personal.html">Personal interests</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+
+<div class="container" id="bg_white">
+  <div class="hero text-center">
+    <h1>Carl Reim</h1>
+    <p>Geographic Information Science | Data Science and Visualization | Transportation Planning</p>
+    <a class="btn btn-primary btn-lg" target="_blank" href="assets/Resume_carlreim_portfolio.pdf" role="button">See resume</a>
+  </div>
+  <!-- <div class="jumbotron">
+  <h1 class="display-4">Carl Reim</h1>
+  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+  <hr class="my-4"> -->
+  <!-- <p>Geographic Information Science | Data Science and Visualization | Transportaion Planning</p> -->
+  <!-- <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a> -->
+<!-- </div> -->
+
+
+    <div class="row">
+
+      <!-- 2/3rds of our screen (8/12) -->
+      <div class="col-md-8 col-sm-12">
+        <!-- This is column 1 of 3 -->
+        <section id="main-bio">
+            <section id="figure">
+                <h2 id="bio-name">Summary</h2>
+                <hr>
+                <a target="_blank" href="assets/portrait.jpg">
+                  <img class="img-responsive" id="bio-image" src="assets/portrait.jpg" alt="fig 1">
+                </a>
+            </section>
+            <p class="text">My name is Carl Reim, and I currently use GIS to support transportation planning efforts for Hennepin County, Minnesota. I have a Masters in GIS degree along with a certificate in Data Science and Visualization. I enjoy organizing data and producing maps and visualizations that help organizations make informed decisions with spatial insights. </p>
+            <p class="text">Currently I support transportation planning efforts for Hennepin County, Minnesota by helping staff make use of various data sets to make decisions and prioritize projects. I do this by managing roadway and project inventories, developing spatial analyses and producing maps and graphics. Additionally, I’ve been involved in project management and public outreach.
+            </p>
+            <p class="text">Previously, I’ve worked in a research center focused on providing remote sensing and GIS support to researchers working in the polar regions of Alaska, Greenland and Antarctica. This work included a wide range of user support and field work.</p>
+            <p class="text">Outside of work, I enjoy working on projects that will expand my skillset, outdoor recreation and roasting coffee. </p>
+            <p class="text">Please take a look at some of my projects below, or by using the navigation bar. </p>
+        </section>
+      </div>
+      <div class="col-md-4 col-sm-12">
+          <div>
+            <section id="main-bio">
+                <section id="figure">
+                    <h2 id="bio-name">Projects</h2>
+                    <hr>
+                </section>
+            </section>
+          </div>
+          <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="assets/Fig1.png" alt="Latitude vs temperature">
+          <div class="card-body text-center">
+<!--
+            <h5 class="card-title">Latitude vs temperature</h5>
+            <p class="card-text"></p>
+-->
+            <a href="fig1.html" class="btn btn-primary">GIS & Cartogrpahy</a>
+          </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="assets/Fig2.png" alt="Latitude vs humidity">
+          <div class="card-body text-center">
+<!--
+            <h5 class="card-title">Latitude vs temperature</h5>
+            <p class="card-text"></p>
+-->
+            <a href="fig2.html" class="btn btn-primary">Data visualizations</a>
+          </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="assets/Fig3.png" alt="Latitude vs cloudiness">
+          <div class="card-body text-center">
+<!--
+            <h5 class="card-title">Latitude vs temperature</h5>
+            <p class="card-text"></p>
+-->
+            <a href="fig3.html" class="btn btn-primary">Scripting</a>
+          </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="assets/Fig4.png" alt="Latitude vs wind speed">
+          <div class="card-body text-center">
+<!--
+            <h5 class="card-title">Latitude vs temperature</h5>
+            <p class="card-text"></p>
+-->
+            <a href="fig4.html" class="btn btn-primary">Personal interests</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+</body>
+
+</html>
